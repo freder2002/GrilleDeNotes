@@ -13,9 +13,6 @@ session = ''
 emailADDRToSend = ""
 emailSender = ""
 emailSenderPasswd = ''
-notes = {}
-notes['notes'] = []
-
 
 def sendMail(txt):
     msg = MIMEMultipart()
