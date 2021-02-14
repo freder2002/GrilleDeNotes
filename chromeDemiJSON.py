@@ -33,7 +33,7 @@ def formatANote(value, total):
 
 
 try:
-    browser = webdriver.Chrome(')
+    browser = webdriver.Chrome()
 
     url = r'' + session
     browser.get(url)
