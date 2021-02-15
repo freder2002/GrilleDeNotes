@@ -39,7 +39,6 @@ try:
     opts = webdriver.ChromeOptions()
     opts.add_argument('headless')
     browser = webdriver.Chrome(options=opts)
-    browser=webdriver.Chrome()
 
     url=r'' + session
     browser.get(url)
